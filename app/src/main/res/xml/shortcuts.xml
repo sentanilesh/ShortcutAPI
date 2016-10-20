@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Define Static Shortcuts List Here with Single intent of list of intents-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_icon_default"
+        android:shortcutDisabledMessage="@string/shortcut_disable_desc"
+        android:shortcutId="c1"
+        android:shortcutLongLabel="@string/shortcut_long_desc"
+        android:shortcutShortLabel="@string/shortcut_short_desc">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.android.shortcutapi.MainActivity"
+            android:targetPackage="com.android.shortcutapi" />
+    </shortcut>
+</shortcuts>

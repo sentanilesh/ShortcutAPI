@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ShortcutAPI</string>
+    <string name="shortcut_long_desc">Static Shortcut Description</string>
+    <string name="shortcut_short_desc">Static Shortcut</string>
+    <string name="shortcut_disable_desc">Disable Description</string>
+</resources>
